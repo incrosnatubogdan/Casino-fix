@@ -1,9 +1,11 @@
 html {
     font-family: 'Roboto', sans-serif;
 }
+
 body {
     padding: 0 0;
     margin: 0 auto;
+    background-color: #08061C;
 }
 
 #logo{
@@ -62,9 +64,9 @@ input[type="text"]{
 }
 
 .firstSection h1 {
+    font-family: 'Segoe UI', sans-serif;
     font-size: 56px;
     color: white;
-    font-family: 'Segoe UI', sans-serif;
     margin: 0px;
     padding: 0px;
     font-weight: 400;
@@ -76,12 +78,91 @@ input[type="text"]{
     padding: 0px;
     font-size: 20px;
     color: white;
-     font-weight: normal;
+    font-weight: normal;
 }
 
+.secondSection {
+    position: absolute;
+    width: 1600px;
+    height: 700px;
+    margin: 100px 157px;
+}
 
+.secondSection h3 {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    text-align: center;
+}
 
+.secondSection p {
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 35px 0px;
+    padding: 0px;
+    text-align: center;
+}
 
+.boxes {
+    display: flex;
+}
+
+.offerBox {
+    margin: 5px;
+    width: 800px;
+    height: 500px;
+    border-radius: 25px;
+    background: radial-gradient(#078ECB, #063D85);
+}
+
+.offerBox h3 {
+    font-size: 38px;
+    margin-top: 15px;
+    padding: 0px;
+}
+
+.offerBox p {
+    font-size: 18px;
+    margin-top: 25px;
+    padding: 0px;
+    font-weight: normal;
+}
+
+.offerBox img{
+    margin-top: 40px;
+}
+
+.buttOffers {
+    background: none;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 25px;
+    width: 260px;
+    color: white;
+}
+
+.bonusBox {
+    margin: 5px;
+    width: 800px;
+    height: 500px;
+    border-radius: 25px;
+    background: radial-gradient(#20D94B, #00A800);
+}
+
+.bonusBox p{
+     font-size: 18px;
+    margin-top: 25px;
+    padding: 0px;
+    font-weight: normal;
+}
+
+.bonusBox img {
+    margin-top: 40px;
+}
 
 
 
