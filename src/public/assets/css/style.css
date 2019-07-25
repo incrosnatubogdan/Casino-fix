@@ -1,17 +1,24 @@
-html {
-    font-family: 'Roboto', sans-serif;
-}
-
+html,
 body {
-    padding: 0 0;
-    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    -webkit-text-size-adjust: none;
+    touch-action: manipulation;
     background-color: #08061C;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
 }
 
 #logo{
     position:absolute;
     left: 120px;
     top: 30px;
+}
+
+.hero {
+    width: 100%;
 }
 
 .firstBox {
@@ -59,7 +66,7 @@ input[type="text"]{
 
 .firstSection {
     position: absolute;
-    top: 550px;
+    top: 15vw;
     left: 145px;
 }
 
@@ -83,9 +90,9 @@ input[type="text"]{
 
 .secondSection {
     position: absolute;
-    width: 1600px;
+    width: 100%;
     height: 700px;
-    margin: 100px 150px;
+    margin: 100px auto;
 }
 
 .secondSection h3 {
@@ -109,6 +116,7 @@ input[type="text"]{
 
 .boxes {
     display: flex;
+    padding: 20px;
 }
 
 .offerBox {
@@ -166,17 +174,22 @@ input[type="text"]{
 
 .thirdSection {
     position: absolute;
-    width: 1600px;
+    width: 100vw;
     height: 270px;
-    margin: 900px 157px;
+    margin: 900px 0;
 }
 
 .secondNav {
     display: flex;
+    padding: 0 20px;
+}
+
+.second-nav-item {
+    width: 25%;
 }
 
 .second-nav-link {
-    width: 395px;
+    width: 100%;
     height: 80px;
     margin: 5px;
     color: white;
@@ -194,7 +207,7 @@ input[type="text"]{
 }
 
 .second-nav-link h3 {
-    padding: 10px 0px 0px 100px;
+    padding: 10px 0px 0px 70px;
     font-size: 24px;
     font-weight: normal;
     margin: 20px 0px 0px;
@@ -204,19 +217,19 @@ input[type="text"]{
     font-size: 14px;
     margin: 0px 0px;
     font-weight: normal;
-    padding-left:100px;
+    padding-left:70px;
 }
 
 .forthSection {
     position: absolute;
-    width: 1600px;
+    width: 90%;
     height: 900px;
-    margin: 1300px 157px;
+    margin: 1300px 5%;
 }
 
 .cassinoBox {
     display: flex;
-    width: 1600px;
+    width: 100%;
     height: 150px;
     background-color: white;
     border-radius: 20px;
