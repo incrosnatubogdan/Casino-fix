@@ -233,8 +233,10 @@ input[type="text"]{
     height: 150px;
     background-color: white;
     border-radius: 20px;
+    align-items: center;
+    justify-content: center;
 }
-..cassinoBox h1, h3 {
+.cassinoBox h1, h3 {
     padding: 0px;
     margin: 0px;
 }
