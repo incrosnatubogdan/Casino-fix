@@ -1,4 +1,6 @@
+.gitignore
 /bootstrap/compiled.php
+node_modules
 /vendor
 composer.phar
 composer.lock
@@ -6,3 +8,4 @@ composer.lock
 .env.php
 .DS_Store
 Thumbs.db
+
