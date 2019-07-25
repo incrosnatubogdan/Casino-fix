@@ -10,12 +10,20 @@ body {
     width: 100vw;
 }
 
+section {
+    margin: 5.2vw;
+}
+
 .blue-bg {
     background: #078ECB;
 }
 
 .home-bg {
     background-color: #08061C;
+}
+
+.grey-bg {
+    background-color: #FAFAFA;
 }
 
 .bluegr-bg {
@@ -522,6 +530,65 @@ h3 {
     background-color: #117DD1;
 }
 
+/* cazinouri recomandate css */
+
+.recom-first-section {
+
+}
+
+.recom-first-section h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.recom-first-section h3 {
+    font-size: 18px;
+}
+
+.recom-second-section {
+}
+
+.box-casino {
+    margin: 8vh;
+    width: 83.3vw;
+    border-radius: 15px;
+    background-color: white;
+    margin: 20px 0px;
+}
+
+.box-casino  p {
+    color: #078ECB;
+    margin-top: 15px;
+}
+
+.box-casino h2 {
+    margin-top: 15px;
+    font-size: 1.8rem;
+}
+
+.box-casino li{
+    font-size: 1rem;
+}
+
+.img-casino {
+    width: 20.57vw;
+}
+
+.info-Off {
+    margin-left: 5.2vw;
+}
+
+.revOff {
+    width: 258px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    margin-top: 15px;
+}
+
+/* end of - cazinouri recomandate css */
 
 /* contact css */
 
@@ -577,5 +644,9 @@ input[type="text"]{
 }
 
 
+<<<<<<< HEAD
+/* end of - contact css */
+=======
 
 /* contact css */
+>>>>>>> 88304ca97d7b04dab484ff9f5fce20267e767cf5
