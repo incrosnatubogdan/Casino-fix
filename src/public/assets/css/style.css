@@ -317,7 +317,7 @@ img {
 .games .flex .large_img {
     position: absolute;
     width: 100%;
-    right: -100%;
+    right: -140%;
     bottom: -10px;
     z-index: 3;
 }
@@ -449,6 +449,37 @@ img {
     float: left;
     height: 5px;
     width: 30%;
+}
+
+.jackpot {
+    background: white;
+    border-radius: 10px;
+    padding: 0 0 10px 0;
+    height: fit-content;
+    width: 30%;
+    margin: 0 2%;
+}
+
+.jackpot > img {
+    width: 100%;
+}
+
+.jackpot b {
+    width: 100%;
+    text-align: center;
+    background: #7E00C5;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.jackpot h6 {
+    margin: 0;
+    padding: 10px 0;
+    color: #063D85;
+    font-size: 1.5rem;
 }
 
 #space .large {
@@ -644,9 +675,5 @@ input[type="text"]{
 }
 
 
-<<<<<<< HEAD
-/* end of - contact css */
-=======
 
 /* contact css */
->>>>>>> 88304ca97d7b04dab484ff9f5fce20267e767cf5
