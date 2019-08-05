@@ -10,9 +10,19 @@ body {
     width: 100vw;
 }
 
-
 .margin {
      margin: 5.2vw;
+}
+
+.mar-left {
+    margin-left: 5vw;
+}
+.mar-2 {
+    margin: 30px 0px;
+}
+
+.margin-md {
+    margin: 20px 0px;
 }
 
 .blue-bg {
@@ -578,14 +588,12 @@ h3 {
     font-size: 18px;
 }
 
-.recom-second-section {
-
-}
-
 .box-casino {
+    margin: 20px auto;
     border-radius: 15px;
     background-color: white;
-    margin: 20px 0px;
+    height: 220px;
+    width: 84vw;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.15);
 }
 
@@ -605,16 +613,26 @@ h3 {
 
 .img-casino {
     width: 20.57vw;
+    border-radius: 15px 0px 0px 15px;
 }
 
 .info-Off {
-    margin-left: 5.2vw;
+    margin-left: 1vw;
     margin-top: 2vh;
+    font-size: 30px;
+    width: 700px;
+}
+
+.info-Off ul {
+    padding-inline-start: 20px;
+}
+
+.info-off li {
+    font-size: 15px;
 }
 
 .info-rev-off{
-    margin-left: 25vw;
-    margin-top: 2vh;
+    margin: 2vh 15px 0px 0px;
 }
 
 .rev-Off {
@@ -624,6 +642,83 @@ h3 {
     border: none;
     color: white;
     margin-top: 15px;
+}
+
+.blueDiv {
+    width: 536px;
+    height: 536px;
+    background-color: #078ECB;
+}
+
+.blue-div {
+    width: 85w;
+    height: 80px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #078ECB;
+}
+
+
+.blue-div h2 {
+    color: white;
+    margin-left: 70px;
+}
+
+.garant-section{
+    width: 85w;
+}
+
+.first-ul {
+    width: 35vw;
+}
+
+.des-p {
+    margin-left: 15px;
+}
+
+.desp-inf {
+    color: #078ECB;
+}
+.sect-info {
+    width: 67vw;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.bonus-section {
+    width: 67vw;
+}
+
+.replacerDiv {
+    width: 67vw;
+    height: 41vh;
+    background-color: #078ECB;
+    position: relative;
+}
+
+.infoDiv {
+    width: 20vw;
+    background-color: white;
+    position: absolute;
+    height: 7.4vh;
+    bottom: 0;
+}
+
+.infoDiv h5 {
+    color: #078ECB;
+    margin-left: 15px;
+}
+
+.games-section {
+    width: 42vw;
+    justify-content: space-between;
+}
+.replacer-second-div {
+    width: 42vw;
+    height: 27vh;
+    background-color: #078ECB;
+}
+.test-section {
+    width: 52vw;
 }
 
 /* end of - cazinouri recomandate css */
