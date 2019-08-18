@@ -770,7 +770,48 @@ h3 {
     width: 70.833vw;
     background-color: #078ECB;
 }
+.sect-md {
+    width: 70.833vw;
+    margin: 0px 8.3vw;
+}
+.sect-md-p {
+    width: 35vw;
+    padding: 15px;
+}
+
+.pop-div {
+    width: 70vw;
+    height: 100px;
+    background-color: #078ECB;
+    border-radius: 5px;
+    margin: 15px 0px;
+  }
+  
+  .pop-div > h3 {
+    color: white;
+    font-size: 1.4rem;
+  }
+  #cls {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .hide-pop-div {
+    width: 60vw;
+    height: 250px;
+    position: absolute;
+    top: 125px;
+    
+  }
+  .hide-pop-div > p {
+    border-top: 1px solid black;
+    padding: 10px 0px;
+    font-size: 15px;
+  }
 /* end of - bonus fara depunere css */
+
 /* start of blog css */
 .blog_articles {
     
