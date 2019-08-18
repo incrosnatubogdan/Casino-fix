@@ -673,13 +673,10 @@ h3 {
 
 /* cazinouri recomandate css */
 
-.recom-first-section {
-
-}
-
 .recom-first-section h1 {
     font-size: 40px;
     font-weight: bold;
+    color: #117DD1;
     font-family: 'Segoe UI', sans-serif;
 }
 
@@ -731,7 +728,8 @@ h3 {
 }
 
 .info-rev-off{
-    margin: 2vh 15px 0px 0px;
+    position: absolute;
+    right: 10vw;
 }
 
 .rev-Off {
@@ -821,6 +819,10 @@ h3 {
 }
 
 /* end of - cazinouri recomandate css */
+
+/* start of - bonus fara depunere css */
+
+/* end of - bonus fara depunere css */
 
 /* contact css */
 
