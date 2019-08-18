@@ -10,8 +10,107 @@ body {
     width: 100vw;
 }
 
+body.padded {
+    padding: 0 5vw;
+}
+
 .margin {
      margin: 5.2vw;
+}
+
+.title {
+    color: #117DD1;
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+    color: #1C1C1C;
+}
+
+.blog_text h5{
+    font-size: 24px;
+    color: #fff;
+}
+
+.blog_text p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.blog_toggle.btn.collapsed {
+    border-radius: 0 0 10px 10px;
+}
+
+.blog_toggle.btn {
+    border-radius: 10px 10px 0 0;
+    background: #117DD1;
+    width: 100%;
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Segoe UI";
+}
+
+.blog_articles {
+    
+}
+
+.blog_article {
+    width: 31%;
+    margin: 1%;
+}
+
+.blog_article img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.blog_article h4 {
+    font-size: 30px;
+    color: #1C1C1C;
+}
+
+.blog_article span {
+    color: #FF8800;
+    font-size: 14px;
+}
+
+.blog_article p {
+    color: #1C1C1C;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+.blog_article .text {
+    display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical; 
+}
+
+.blog_article a {
+    border-radius: 30px;
+    /* width: 50%; */
+    background: #117DD1;
+    font-size: 18px;
+}
+
+.blog_card {
+    border-radius: 10px;
+    width: 31%;
+    padding: 10px;
+    margin: 1%;
+}
+
+.blog_card a{
+    background: white;
+    padding: 10px 5px;
+    border-radius: 5px;
 }
 
 .mar-left {
