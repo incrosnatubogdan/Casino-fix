@@ -57,62 +57,6 @@ h5 {
     font-family: "Segoe UI";
 }
 
-.blog_articles {
-    
-}
-
-.blog_article {
-    width: 31%;
-    margin: 1%;
-}
-
-.blog_article img {
-    border-radius: 10px;
-    width: 100%;
-}
-
-.blog_article h4 {
-    font-size: 30px;
-    color: #1C1C1C;
-}
-
-.blog_article span {
-    color: #FF8800;
-    font-size: 14px;
-}
-
-.blog_article p {
-    color: #1C1C1C;
-    overflow: hidden;
-    font-size: 18px;
-}
-
-.blog_article .text {
-    display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical; 
-}
-
-.blog_article a {
-    border-radius: 30px;
-    /* width: 50%; */
-    background: #117DD1;
-    font-size: 18px;
-}
-
-.blog_card {
-    border-radius: 10px;
-    width: 31%;
-    padding: 10px;
-    margin: 1%;
-}
-
-.blog_card a{
-    background: white;
-    padding: 10px 5px;
-    border-radius: 5px;
-}
-
 .mar-left {
     margin-left: 5vw;
 }
@@ -821,8 +765,69 @@ h3 {
 /* end of - cazinouri recomandate css */
 
 /* start of - bonus fara depunere css */
-
+.replacer-third-div{
+    height: 41.66vh;
+    width: 70.833vw;
+    background-color: #078ECB;
+}
 /* end of - bonus fara depunere css */
+/* start of blog css */
+.blog_articles {
+    
+}
+
+.blog_article {
+    width: 31%;
+    margin: 1%;
+}
+
+.blog_article img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.blog_article h4 {
+    font-size: 30px;
+    color: #1C1C1C;
+}
+
+.blog_article span {
+    color: #FF8800;
+    font-size: 14px;
+}
+
+.blog_article p {
+    color: #1C1C1C;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+.blog_article .text {
+    display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical; 
+}
+
+.blog_article a {
+    border-radius: 30px;
+    /* width: 50%; */
+    background: #117DD1;
+    font-size: 18px;
+}
+
+.blog_card {
+    border-radius: 10px;
+    width: 31%;
+    padding: 10px;
+    margin: 1%;
+}
+
+.blog_card a{
+    background: white;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+/* end of css blog */
 
 /* contact css */
 
