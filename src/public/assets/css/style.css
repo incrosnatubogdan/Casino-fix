@@ -779,36 +779,41 @@ h3 {
     padding: 15px;
 }
 
+.sect-md-mg {
+    margin: 0 4vw;
+    width: 60vw;
+}
+.sect-mg {
+    margin: 0 4vw;
+}
+
 .pop-div {
     width: 70vw;
     height: 100px;
     background-color: #078ECB;
     border-radius: 5px;
     margin: 15px 0px;
+    border: none;
+    color:white;
   }
   
   .pop-div > h3 {
     color: white;
     font-size: 1.4rem;
   }
-  #cls {
-    width: 15px;
-    height: 15px;
-    background-color: white;
-    border-radius: 50%;
+.hide-pop-div > h3 {
+    margin-bottom: 15px;
+}
+  
+  .h-butt {
+      width: 60vw;
+      font-size: 22px;
+      padding-top: 25px;
+  }
+  .h-butt:hover {
+    text-decoration: none;
+    color: white;
     cursor: pointer;
-  }
-  .hide-pop-div {
-    width: 60vw;
-    height: 250px;
-    position: absolute;
-    top: 125px;
-    
-  }
-  .hide-pop-div > p {
-    border-top: 1px solid black;
-    padding: 10px 0px;
-    font-size: 15px;
   }
 /* end of - bonus fara depunere css */
 

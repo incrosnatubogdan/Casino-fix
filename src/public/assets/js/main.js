@@ -10,9 +10,3 @@ $(document).ready(function () {
           },
     })
 });
-
-$(document).ready(function() {
-    $('#cls').click(function() {
-      $('.hide-pop-div').toggle("slow");
-    });
-  });
